@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.col-prim {
+  color: #fd6e0a;
+}
+
+header nav {
+  padding: 50px 225px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo h2 {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 65.47px;
+  color: #181818;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+nav ul li {
+  margin: 0px 30px;
+  font-size: 20px;
+  color: #474747;
+}
+
+.btn-prym {
+  padding: 18px 35px;
+  background-color: #fd6e0a;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Header Banner */
+header {
+  background: #fff8f3;
+  height: 110vh;
+  background-image: url("./images/hardy.png"), url("./images/header_bg.png"),
+    url("./images/developer.png");
+  background-position: right bottom, bottom right, left;
+  background-repeat: no-repeat;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+.leftAside {
+  padding: 50px 225px;
+}
+.leftAside h1 {
+  font-size: 80px;
+  margin: 20px 0;
+  color: #181818;
+}
+.leftAside h2 {
+  font-size: 40px;
+  color: #474747;
+}
+.leftAside p {
+  width: 550px;
+  font-size: 18px;
+  color: #a7a4a2;
+}
+.leftAside button {
+  margin-top: 40px;
+}
+.contact-btn {
+  padding: 18px 35px;
+  background-color: transparent;
+  color: #fd6e0a;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+/* About me sectioin */
+.container {
+  padding: 130px 225px;
+}
+.aboutBody {
+  padding: 131px 156px;
+  background-color: #fff8f3;
+  border-radius: 5px;
+  text-align: center;
+}
+.aboutContent h1 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin: 30px 0;
+}
+
+.aboutContent p {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.aboutOptionBar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.aboutOptionBar b {
+  color: #474747;
+  font-weight: 900;
+  font-size: 20;
+  line-height: 30px;
+}
