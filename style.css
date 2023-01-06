@@ -7,7 +7,12 @@
 .col-prim {
   color: #fd6e0a;
 }
-
+p {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
 header nav {
   padding: 50px 225px;
   display: flex;
@@ -71,7 +76,7 @@ header {
 }
 .leftAside p {
   width: 550px;
-  font-size: 18px;
+
   color: #a7a4a2;
 }
 .leftAside button {
@@ -105,12 +110,12 @@ header {
   margin: 30px 0;
 }
 
-.aboutContent p {
+/* .aboutContent p {
   color: #757575;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
-}
+} */
 .aboutOptionBar {
   margin-top: 30px;
   display: flex;
@@ -121,4 +126,37 @@ header {
   font-weight: 900;
   font-size: 20;
   line-height: 30px;
+}
+
+/* Skils Section */
+.skils-section {
+  padding: 0px 225px;
+  text-align: center;
+}
+
+.skils-content h1 {
+  font-size: 35px;
+  color: #181818;
+}
+.skils-content > p {
+  padding: 30px 100px;
+}
+.skil-container {
+  display: flex;
+}
+.skil {
+  padding: 30px;
+  text-align: left;
+  width: 267px;
+  justify-content: space-around;
+  margin-right: 20px;
+  box-shadow: 1px 10px 20px 20px #f6f6f6;
+}
+
+.skil h1 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.skil > p {
+  font-size: 16px;
 }
