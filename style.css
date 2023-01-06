@@ -160,3 +160,99 @@ header {
 .skil > p {
   font-size: 16px;
 }
+/* Sammery of education and exp. */
+
+.summary-of-resume {
+  text-align: center;
+}
+
+.summary-of-resume > h1 {
+  font-size: 35px;
+  color: #181818;
+  padding-bottom: 113px;
+}
+
+.exp-cont {
+  display: flex;
+}
+.education > h1,
+.expirance > h1 {
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.edu-container h1,
+.experience-container h1 {
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.edu-container h2,
+.experience-container h2 {
+  font-size: 20px;
+  color: #757575;
+}
+.edu-container p,
+.experience-container p {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.edueliment {
+  text-align: left;
+
+  margin: 30px;
+}
+
+hr {
+  width: 95%;
+  margin-left: 20px;
+}
+
+/* cotent section  */
+.contact {
+  height: 100vh;
+  background-color: #fff8f3;
+  justify-content: center;
+}
+.social-contact {
+}
+.contact-method h1 {
+  font-size: 35px;
+  color: #181818;
+  padding: 20px 0;
+}
+.contact-method {
+  display: flex;
+  justify-content: space-around;
+}
+.social-contact p {
+  font-size: 16px;
+  width: 550px;
+}
+.socila-icon img {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.message-contact input {
+  display: block;
+  width: 450px;
+  padding: 20px 15px;
+  margin: 20px 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.message-contact textarea {
+  resize: none;
+  width: 450px;
+  height: 180px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+}
